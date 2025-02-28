@@ -1,0 +1,387 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.konteiner{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 0;
+}
+.taital{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.taital-p{
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+
+.menu{
+    background-color: black;
+    height: 60px;
+    line-height: 50px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 100;
+}
+.menu-links{
+    float: right;
+
+
+}
+.menu-links a{
+    color: azure;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 15px;
+    display:inline-block ;
+}
+.menu-links a:hover{
+    transform: scale(1.1);
+    color: rgb(255, 123, 0);
+}
+.menu img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+.header{
+    background: linear-gradient( #DB7E7E , #FFC997);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: fit-content;
+}
+.header h1{
+    font-size: 133px;
+    text-shadow: -1px 15px 7px rgba(227, 98, 0, 0.8);
+    color: rgb(255, 255, 255);
+    width: 900px;
+    margin-bottom: 20px;
+}
+.header a{
+    color: rgb(2, 2, 2);
+    font-size: 35px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 25px 7px 13px rgb(206, 83, 42);
+}
+.circle1{
+    position: absolute;
+    top: -50px;
+    left: -60px;
+}
+.circle2{
+    position: absolute;
+    top: -50px;
+    right: -60px;
+}
+.circle3{
+    position: absolute;
+    bottom: -85px;
+    left: -90px;
+    
+}
+.circle-bordered{
+    position: absolute;
+    bottom: -35px;
+    left: 200px;
+}
+.circle-dashed-border{
+    position: absolute;
+    bottom: -195px;
+    right: -85px;
+}
+.triangle{
+    position: absolute;
+    top: 130px;
+    right: 855px;
+}
+.octagon{
+    position: absolute;
+    bottom:50px;
+    right: 600px ;
+}
+
+
+
+
+
+.do{
+    background: linear-gradient(7deg, #DB7E7E 18.07%, #FFC997 70%, #FFFFFF 70%);
+}
+.do-left{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.do-raint{
+    display: inline-block;
+    width: 49%;
+}
+.do-raint img{
+    width: 100%;
+}
+.do-p{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 18px;
+    font-size: 20px ;
+    box-shadow: 7px 7px 15px rgb(255, 128, 0);
+}
+
+
+
+
+
+
+.servis{
+    background: linear-gradient(340.62deg, #FFFFFF 45.63%, #DB7F7E 45.64%);
+    text-align: center;
+}
+.servis-card{
+    background-color: rgb(249, 248, 248);
+    width: 300px;
+    height:435px;
+    border-radius: 25px;
+    border: 5px solid rgb(249, 156, 27);
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+.servis-line{
+    width: 100px;
+    margin: auto;
+    height: 5px;
+    background-color: rgb(255, 162, 0);
+}
+.servis-img{
+    
+    
+
+}
+.servis-h2{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.good{
+    position: relative;
+    overflow: hidden;
+}
+.good-card {
+    width: 555px;
+    border: 4px solid rgb(255, 136, 0);
+    padding: 10px 25px;
+    border-radius:20px ;
+    box-shadow: 6px 6px 2px rgba(255, 42, 0, 0.716);
+    margin: 15px auto ;
+    background-color: #ffffff;
+}
+.good-card ul{
+    list-style: circle;
+    padding-left: 15px;
+}
+.good-card li{
+    font-size: 22px;
+}
+.good-card h3{
+    font-size: 25px;
+}
+.gc1{
+    position: relative ;
+    right: 100px;
+}
+.gc2{
+    position: relative ;
+    left: 100px;
+}
+.gc3{
+    position: relative ;
+    right: 125px;
+}
+.good-img1{
+    width: 40%;
+    position: absolute;
+    right: -25px;
+    bottom: -20px;
+}
+.good-img2{
+    position: absolute;
+}
+
+
+
+.work-card{
+    display: inline-block;
+    width: 49%;
+    height: 200px;
+    border: 5px solid rgb(255, 166, 0);
+    border-radius: 20px;
+}
+.wc1{
+    background: url(img/portfolio/site1.png)center/cover no-repeat;
+}
+.wc2{
+    background: url(img/portfolio/site2.png)center/cover no-repeat;
+}
+.wc3{
+    background: url(img/portfolio/site3.png)center/cover no-repeat;
+}
+.wc4{
+    background: url(img/portfolio/site4.png)center/cover no-repeat;
+}
+
+
+.write{
+    background: linear-gradient( #DB7E7E , #FFC997) ;
+    text-align: center;
+}
+.a1{
+    color: rgb(2, 2, 2);
+    font-size: 35px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 25px 7px 13px rgb(206, 83, 42);
+}
+
+
+
+
+
+
+@media(max-width:1200px) {
+    .good-img2{
+        width: 20%;
+    }
+    .header h1{
+        font-size: 70px;
+    }
+}
+@media(max-width:1000px) {
+    .menu{
+        height: fit-content;
+    }
+    .servis-card{
+        width: 28%;
+        margin: 5px;
+        height: 400px;
+    }
+    .servis-card img{
+        width: 70%;
+    }
+    .circle1{
+        display: none;
+    }
+    .circle2{
+        display: none;
+    }
+    .circle3{
+        display: none;
+    }
+    .circle-bordered{
+        display: none;
+    }
+    .circle-dashed-border{
+        display: none;
+    }
+    .triangle{
+        display: none;
+    }
+    .octagon{
+        display: none;
+    }
+}
+@media(max-width:850px) {
+    .gc1{
+        position: relative ;
+        right: 0px;
+    }
+    .gc2{
+        position: relative ;
+        left: 0px;
+    }
+    .gc3{
+        position: relative ;
+        right: 0px;
+    }
+}
+@media(max-width:810px) {
+    .menu-links a{
+        margin-right:100px ;
+    }
+}
+@media(max-width:700px){
+    .do-left{
+        display: block; 
+        width: 80%;
+        margin: auto;
+    }
+    .do-raint{
+        display: block; 
+        width: 80%;
+        margin: auto;
+    }
+    .menu-links a{
+        margin-right:70px ;
+    }
+    .servis-card{
+        display: block; 
+        width: 50% ;
+        margin:10px auto;
+        height: fit-content;
+        padding: 10px;
+    }
+    .work-card{
+        display: block; 
+        width: 90% ;
+        margin:10px auto;
+    }
+}
+@media (max-width:620px) {
+    .header h1{
+        width: 400px;
+    }
+    .menu-links a{
+        margin-right:35px ;
+    }
+    .good-card{
+        width: 90%;
+    }
+}
+@media (max-width:490px) {
+    .menu-links a{
+        margin-right:20px ;
+    }
+}
+@media (max-width:435px) {
+    .menu-links a{
+        margin-right:5px ;
+    }
+}
